@@ -57,7 +57,7 @@ const Page1 = () => {
               >
                 Log in
               </Button>
-              <Button className="border ms-2" shape="round" type="success">Register</Button>
+              <Button className="border mt-sm-2 mt-md-0 ms-2" shape="round" type="success">Register</Button>
             </div>
           </div>
         </div>
@@ -96,7 +96,7 @@ const Page1 = () => {
           />
         </div>
       </div>
-      <div className="mx-auto mt-0 row" style={{ width: "85%", minHeight: "15rem" }}>
+      <div className="mx-auto mt-md-5 mt-sm-0  row" style={{ width: "85%", minHeight: "15rem" }}>
         <Card className="col-3 me-auto d-flex flex-column align-items-center justify-content-center">
           <p className="fw-bold text-center">Easy Payment</p>
           <MdOutlinePayment
