@@ -109,7 +109,7 @@ const Page2 = () => {
 
           <div
             className="container-fluid row w-100"
-            style={{ minHeight: "35rem",padding:"5rem" }}
+            style={{ minHeight: "35rem", padding: "5rem" }}
           >
             <div className="col-md-6 col-12 d-flex flex-column text-white">
               <h1>

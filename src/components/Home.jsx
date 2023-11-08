@@ -9,7 +9,7 @@ const Home = ({setCurrentPage}) => {
       className="mx-auto pt-3 d-flex flex-column justify-content-center align-items-center"
     >
       <h5 className="text-center" style={{marginTop:"10rem",color: "darkslategray" }}>
-        10 Cool Landing Pages
+        Cool Landing Pages
       </h5>
       <Button
         type="primary"
@@ -23,7 +23,7 @@ const Home = ({setCurrentPage}) => {
       <small className="mt-2">To Change Pages, Use the buttons on the bottom right.</small>
       <div
         className="col-12 w-100 mb-2 d-flex flex-column justify-content-center align-items-center"
-        style={{ marginTop: "25rem" }}
+        style={{ marginTop: "30%" }}
       >
       <hr style={{width:"70%"}}/>
         <Popover

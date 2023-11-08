@@ -1,8 +1,8 @@
 import { Button, Card } from "antd";
 import buyHouse from "../assets/undraw_buy_house_re_8xq7.svg";
 import { MdOutlinePayment } from "react-icons/md";
-import {Ri24HoursFill} from 'react-icons/ri'
-import {PiTargetDuotone} from 'react-icons/pi'
+import { Ri24HoursFill } from "react-icons/ri";
+import { PiTargetDuotone } from "react-icons/pi";
 
 const Page1 = () => {
   return (
@@ -12,7 +12,11 @@ const Page1 = () => {
     >
       <nav class="navbar bg-white navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand fw-bold" style={{ color: "#00BFFF" }} href="/landing-page-1">
+          <a
+            class="navbar-brand fw-bold"
+            style={{ color: "#00BFFF" }}
+            href="/landing-page-1"
+          >
             BJORN
           </a>
           <button
@@ -29,7 +33,11 @@ const Page1 = () => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/landing-page-1">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/landing-page-1"
+                >
                   Home
                 </a>
               </li>
@@ -57,7 +65,13 @@ const Page1 = () => {
               >
                 Log in
               </Button>
-              <Button className="border mt-sm-2 mt-md-0 ms-2" shape="round" type="success">Register</Button>
+              <Button
+                className="border mt-sm-2 mt-md-0 ms-2"
+                shape="round"
+                type="success"
+              >
+                Register
+              </Button>
             </div>
           </div>
         </div>
@@ -96,7 +110,10 @@ const Page1 = () => {
           />
         </div>
       </div>
-      <div className="mx-auto mt-md-5 mt-sm-0  row" style={{ width: "85%", minHeight: "15rem" }}>
+      <div
+        className="mx-auto mt-md-5 mt-sm-0  row"
+        style={{ width: "85%", minHeight: "15rem" }}
+      >
         <Card className="col-3 me-auto d-flex flex-column align-items-center justify-content-center">
           <p className="fw-bold text-center">Easy Payment</p>
           <MdOutlinePayment
@@ -115,7 +132,8 @@ const Page1 = () => {
             style={{ width: "3rem", height: "3rem", color: "#FFDF00" }}
           />
           <small className="d-block text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, sapiente!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+            sapiente!
           </small>
         </Card>
         <Card className="col-3 ms-auto d-flex flex-column align-items-center justify-content-center">
@@ -125,7 +143,8 @@ const Page1 = () => {
             style={{ width: "3rem", height: "3rem", color: "#32CD32" }}
           />
           <small className="d-block text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, quae?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+            quae?
           </small>
         </Card>
       </div>

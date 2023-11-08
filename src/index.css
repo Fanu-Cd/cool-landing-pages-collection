@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -6,9 +6,10 @@ body {
   margin: 0;
 }
 
-.divv1{
-  background-image: url('./assets/coffee-beans-levitate-white-background.jpg'),url('./assets/coffee-beans-levitate-white-background.jpg');
+.divv1 {
+  background-image: url("./assets/coffee-beans-levitate-white-background.jpg"),
+    url("./assets/coffee-beans-levitate-white-background.jpg");
   background-repeat: no-repeat no-repeat;
   background-position: top left, bottom right;
-  background-size: 10rem 5rem,10rem 5rem;
+  background-size: 10rem 5rem, 10rem 5rem;
 }

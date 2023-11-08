@@ -3,16 +3,18 @@ import ErrorPage from "./components/ErrorPage";
 import Layout from "./components/Layout";
 import Home from "./components/Home.jsx";
 import { FloatButton } from "antd";
-import { CaretLeftOutlined, CaretRightOutlined, HomeFilled } from "@ant-design/icons";
+import {
+  CaretLeftOutlined,
+  CaretRightOutlined,
+  HomeFilled,
+} from "@ant-design/icons";
 import Page1 from "./pages/Page1";
 import Page2 from "./pages/Page2";
-import Page3 from "./pages/Page3";
 import { useEffect, useState } from "react";
-
 
 function App() {
   const [currentPage, setCurrentPage] = useState();
-  
+
   const router = createBrowserRouter([
     {
       path: "/",
@@ -30,10 +32,6 @@ function App() {
         {
           path: "/landing-page-2",
           element: <Page2 />,
-        },
-        {
-          path: "/landing-page-3",
-          element: <Page3 />,
         },
       ],
     },
@@ -70,7 +68,7 @@ function App() {
         onClick={() => {
           document.getElementById("right").click();
         }}
-        disabled={typeof currentPage !== "number" || currentPage == 10}
+        disabled={typeof currentPage !== "number" || currentPage === 2}
       />
       <a id="right" className="d-none" href={`landing-page-${currentPage + 1}`}>
         Anchor
@@ -78,7 +76,7 @@ function App() {
       <FloatButton
         shape="circle"
         type="default"
-        style={{ right: 125}}
+        style={{ right: 125 }}
         icon={<HomeFilled />}
         onClick={() => {
           document.getElementById("home").click();
